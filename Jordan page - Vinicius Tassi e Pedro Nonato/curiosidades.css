@@ -1,0 +1,35 @@
+body{
+    background: rgb(232, 15, 15);
+    background: linear-gradient(90deg, rgba(232,15,15,1) 27%, rgba(32,25,25,1) 66%);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    header, image{
+        text-align: center;
+        margin: 20px auto;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        justify-content: space-between;
+    }
+    h1{
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+    }
+    ul, li{
+        padding: 10px 10px 20px 20px;
+    }
+    nav a:hover{
+        color: black;
+     }
+.curiosidade{
+    flex-direction: row;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}

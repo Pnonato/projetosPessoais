@@ -1,0 +1,54 @@
+#menu{
+    background-color: rgb(37, 37, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row;
+
+    
+}
+
+#menu ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline;
+    align-items: center;
+}
+
+#menu ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(160, 0, 0);
+}
+
+#menu ul{
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+     align-items: center;
+     padding: 16px;
+ }
+
+@media only screen and (max-width: 600px) {
+    #menu {
+        width: 100%;
+    }
+    #menu ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #menu ul li {
+        text-align: center;
+        width: 100%;
+    }
+}

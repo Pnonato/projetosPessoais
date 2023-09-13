@@ -1,0 +1,21 @@
+@media only screen and (max-width:640px){
+  table{
+      width: 100%;
+  }
+  .slider{
+    width: 100%;
+  }
+ img{
+  max-width: 100%;
+ }
+ .container{
+  width: 100%;
+ }
+ .form,input,textarea{
+  width: 100%;
+ }
+ .foto{
+  width: 100px;
+ }
+
+}
